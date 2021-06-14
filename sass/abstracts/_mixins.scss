@@ -1,0 +1,15 @@
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin main-gradient {
+
+  display: inline-block;
+  background-image: $main-gradient;
+  -webkit-background-clip: text;
+  color: transparent;
+}
