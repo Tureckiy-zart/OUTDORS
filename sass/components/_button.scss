@@ -3,7 +3,7 @@
     animation: moveInBottom 0.5s ease-out 0.75s;
     animation-fill-mode: backwards;
   }
-
+  &,
   &:link,
   &:visited {
     text-transform: uppercase;
@@ -13,6 +13,11 @@
     transition: all 0.2s;
     position: relative;
     font-size: $default-font-size;
+
+    //change for the <button> element
+
+    border: none;
+    cursor: pointer;
   }
   &:hover {
     transform: translateY(-0.3rem);
@@ -22,7 +27,9 @@
       opacity: 0;
     }
   }
-  &:active {
+  &:active,
+  &:focus {
+    outline: none;
     transform: translateY(-0.1rem);
     box-shadow: $active-box-shadow;
   }
@@ -41,7 +48,7 @@
   }
   &--white {
     background-color: $color-white;
-    color: $color-grey-dark;
+    color: $color-grey-dark-1;
     padding: 1rem 4rem;
     &::after {
       background-color: $color-white;
@@ -55,11 +62,6 @@
       background-color: $color-white;
     }
   }
-
-
-
-
-
 }
 
 .btn-text {

@@ -12,7 +12,9 @@ $color-tertiary-dark: #5643fa;
 
 $color-grey-light-1: #f7f7f7;
 $color-grey-light-2: darken($color-grey-light-1, 0.2);
-$color-grey-dark: #777;
+$color-grey-dark-1: #777;
+$color-grey-dark-2: #999;
+$color-grey-dark-3: #333;
 $color-white: #fff;
 $color-black: #000;
 
@@ -34,6 +36,7 @@ $default-font-size: 1.6rem;
 
 //Shadows
 $defaut-box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
+$defaut-box-shadow-04: 0 1rem 2rem rgba($color-black, 0.4);
 $active-box-shadow: 0 0.5rem 1rem rgba($color-black, 0.2);
 $image-box-shadow-light-15: 0 1.5rem 4rem rgba($color-black, 0.15);
 $image-box-shadow-light: 0 1.5rem 4rem rgba($color-black, 0.4);
