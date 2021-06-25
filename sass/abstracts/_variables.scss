@@ -11,7 +11,7 @@ $color-tertiary-light: #2998ff;
 $color-tertiary-dark: #5643fa;
 
 $color-grey-light-1: #f7f7f7;
-$color-grey-light-2: darken($color-grey-light-1, 0.2);
+$color-grey-light-2: darken($color-grey-light-1, .2);
 $color-grey-dark-1: #777;
 $color-grey-dark-2: #999;
 $color-grey-dark-3: #333;
@@ -19,11 +19,9 @@ $color-white: #fff;
 $color-black: #000;
 
 //GRADIENTS
-$main-gradient: linear-gradient(
-  to right,
+$main-gradient: linear-gradient(to right,
   $color-primary-light,
-  $color-primary-dark
-);
+  $color-primary-dark);
 
 //  GRID
 
@@ -35,37 +33,27 @@ $gutter-horizontal: 6rem;
 $default-font-size: 1.6rem;
 
 //Shadows
-$defaut-box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
-$defaut-box-shadow-04: 0 1rem 2rem rgba($color-black, 0.4);
-$active-box-shadow: 0 0.5rem 1rem rgba($color-black, 0.2);
-$image-box-shadow-light-15: 0 1.5rem 4rem rgba($color-black, 0.15);
-$image-box-shadow-light: 0 1.5rem 4rem rgba($color-black, 0.4);
-$image-box-shadow-dark: 0 2.5rem 4rem rgba($color-black, 0.5);
+$defaut-box-shadow: 0 1rem 2rem rgba($color-black, .2);
+$defaut-box-shadow-04: 0 1rem 2rem rgba($color-black, .4);
+$active-box-shadow: 0 0.5rem 1rem rgba($color-black, .2);
+$image-box-shadow-light-15: 0 1.5rem 4rem rgba($color-black, .15);
+$image-box-shadow-light: 0 1.5rem 4rem rgba($color-black, .4);
+$image-box-shadow-dark: 0 2.5rem 4rem rgba($color-black, .5);
 
 //BACKGROUNG
-$header-background-image: linear-gradient(
-    rgba($color-primary-light, 0.8),
-    rgba($color-primary-dark, 0.8)
-  ),
-  url(../img/hero.jpg);
-$features-background-image: linear-gradient(
-    rgba($color-primary-light, 0.8),
-    rgba($color-primary-dark, 0.8)
-  ),
-  url(../img/nat-4.jpg);
+$header-background-image: linear-gradient(rgba($color-primary-light, 0.8),
+  rgba($color-primary-dark, .8)),
+url(../img/hero.jpg);
+$features-background-image: linear-gradient(rgba($color-primary-light, 0.8),
+  rgba($color-primary-dark, .8)),
+url(../img/nat-4.jpg);
 
-$gradient-card-one: linear-gradient(
-  to right bottom,
+$gradient-card-one: linear-gradient(to right bottom,
   $color-secondary-light,
-  $color-secondary-dark
-);
-$gradient-card-two: linear-gradient(
-  to right bottom,
+  $color-secondary-dark);
+$gradient-card-two: linear-gradient(to right bottom,
   $color-primary-light,
-  $color-primary-dark
-);
-$gradient-card-three: linear-gradient(
-  to right bottom,
+  $color-primary-dark);
+$gradient-card-three: linear-gradient(to right bottom,
   $color-tertiary-light,
-  $color-tertiary-dark
-);
+  $color-tertiary-dark);

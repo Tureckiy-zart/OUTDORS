@@ -20,6 +20,7 @@
     transform: translateX(-3rem) skewX(12deg);
     position: relative;
   }
+
   &__img {
     height: 100%;
     transform: translateX(-4rem) scale(1.4);
@@ -27,9 +28,11 @@
 
     backface-visibility: hidden;
   }
+
   &__text {
     transform: skewX(12deg);
   }
+
   &__caption {
     position: absolute;
     top: 50%;
@@ -49,6 +52,7 @@
     // backface-visibility: hidden;
     transform: translate(-50%, -50%);
   }
+
   &:hover &__img {
     transform: translate(-4rem) scale(1);
     // backface-visibility: hidden;
